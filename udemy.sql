@@ -1,5 +1,6 @@
-SELECT *
-FROM udemycourses;
+--Udemy Data Exploration
+--Skills Used: Window Functions, CTE's, Aggregate Functions
+
 
 /* deleting duplicates */
 WITH RowCTE AS (
