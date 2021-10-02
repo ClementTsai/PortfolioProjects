@@ -7,12 +7,12 @@ WITH RowCTE AS (
 SELECT *,
 	ROW_NUMBER() OVER (
 	PARTITION BY 
-				 course_title,
-				 url,
-				 published_timestamp
-				 ORDER BY
-				 	course_id 
-				 	) row_num
+		course_title,
+		url,
+		published_timestamp
+			ORDER BY
+				course_id 
+				) row_num
 FROM udemycourses
 )
 
