@@ -1,9 +1,6 @@
-# PortfolioProjects
-Tableau Visual Dashboard:<br>
-[Tokyo Olympics and World Happiness](https://public.tableau.com/app/profile/clement.tsai/viz/FirstProject-2020TokyoOlympicsandWorldHappiness/Dashboard1)<br>
-[Udemy Course Data Exploration](https://public.tableau.com/app/profile/clement.tsai/viz/Project2-UdemyCoursesDataExploration/Dashboard1)
+# Portfolio Projects
+*This portfolio is a compliation of projects I have created for data analysis*
 
-# Project Directory 
 [Project 1 - Tokyo Olympics and World Happiness](#Tokyo)<br>
 [Project 2 - Udemy Course Data Exploration](#Udemy)<br>
 [Project 3 - New York City Property Data Cleaning](#NYC)<br>
@@ -11,11 +8,36 @@ Tableau Visual Dashboard:<br>
 ---
 
 ## <a name="Tokyo"></a> Project 1 - Tokyo Olympics and World Happiness
-PROCESS<br> 
-Sorting: <br>
-  1. Used VLOOKUP and Conditioning Formatting to match country names between World Happiness Report and listed 2020 Tokyo Olympic Teams/Countries<br>
-  2. Manually corrected name differences between the two reports (ie. Great Britain and United Kingdom). Teams that were not represented in the World Happiness Report were excluded.<br>
-  3. Results were then filtered by colour to present final matches to better identify any potential missing points of interest.<br>
+My goal for my first project was to be able to discern any connection between a country's happiness score and the overall medals they won at the 2021 Tokyo Olympics. 
+### Datasets used:
+[Olympics in Tokyo](https://www.kaggle.com/arjunprasadsarkhel/2021-olympics-in-tokyo)  
+[World Happiness Report](https://www.kaggle.com/ajaypalsinghlo/world-happiness-report-2021)
+### Process
+* Used VLOOKUP and Conditioning Formatting in Excel to match country names between World Happiness Report and listed 2020 Tokyo Olympic Teams/Countries<br>
+* Manually corrected name differences between the two reports (ie. Great Britain and United Kingdom). Teams that were not represented in the World Happiness Report were excluded from the dataset.<br>
+* Results were then filtered by colour to present final matches to better identify any potential missing points of interest.<br>
+* Once data had been cleaned in Excel, imported it over to MySQL and conducted several queries which can be found [here](https://github.com/ClementTsai/PortfolioProjects/blob/main/HappinessVMedalsProj.sql)
+* Datasets were then imported to Tableau Public where several visualizations were made to better understand the relation between a country's happiness score and the medals they won at the 2021 Tokyo Olympics
+
+Tableau Visual Dashboard:<br>
+[Tokyo Olympics and World Happiness](https://public.tableau.com/app/profile/clement.tsai/viz/FirstProject-2020TokyoOlympicsandWorldHappiness/Dashboard1)<br>
 
 ## <a name="Udemy"></a> Project 2 - Project 2 - Udemy Course Data Exploration
+My goal for my second project was to explore the data within the Udemy Course dataset.
+### Datasets used:
+[Udemy Course](https://www.kaggle.com/andrewmvd/udemy-courses)
+### Process
+* Dataset was imported to MySQL where all duplicate courses were expunged
+* Once all duplicates were deleted, I [explored](https://github.com/ClementTsai/PortfolioProjects/blob/main/udemy.sql) the dataset in MySQL
+* Dataset was then imported to Tableau Public where I created several visualizations such as the growth of Udemy from 2011-2017
+
+Tableau Visual Dashboard:<br>
+[Udemy Course Data Exploration](https://public.tableau.com/app/profile/clement.tsai/viz/Project2-UdemyCoursesDataExploration/Dashboard1)
 ## <a name="NYC"></a> Project 3 - New York City Property Data Cleaning
+My goal for my third project was to clean the dataset.
+### Datasets used:
+[New York City Property Sales](https://www.kaggle.com/new-york-city/nyc-property-sales)
+### Process
+* Dataset was first imported to Excel where the ID numbers were changed to be distinct
+* Merged Neighbourhood and Address together for the purpose of cleaning it in MySQL as practice
+* Dataset was then imported to MySQL to be [cleaned](https://github.com/ClementTsai/PortfolioProjects/blob/main/NYCPropertyClean.sql)
