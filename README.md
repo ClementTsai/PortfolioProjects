@@ -5,12 +5,12 @@ Tableau Visual Dashboard:<br>
 
 # Project Directory 
 # Project Directory 
-[Project 1: Tokyo Olympics and World Happiness](#Tokyo)<br>
-[here](#Project 2 - Udemy Course Data Exploration)<br>
-[here](#Project 3 - New York City Property Data Cleaning)<br>
+[Project 1 - Tokyo Olympics and World Happiness](#Tokyo)<br>
+[Project 2 - Udemy Course Data Exploration](#Udemy)<br>
+[Project 3 - New York City Property Data Cleaning](#NYC)<br>
 
 ---
 
-## <a name="Tokyo"></a> Project-1:-Tokyo-Olympics-and-World-Happiness
-## Project 2 - Udemy Course Data Exploration
-## Project 3 - New York City Property Data Cleaning
+## <a name="Tokyo"></a> Project 1 - Tokyo Olympics and World Happiness
+## <a name="Udemy"></a> Project 2 - Project 2 - Udemy Course Data Exploration
+## <a name="NYC"></a> Project 3 - New York City Property Data Cleaning
