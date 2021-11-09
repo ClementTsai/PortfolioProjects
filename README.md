@@ -8,7 +8,7 @@
 ---
 
 ## <a name="Tokyo"></a> Project 1 - Tokyo Olympics and World Happiness
-My goal for my first project was to be able to discern any connection between a country's happiness score and the overall medals they won at the 2021 Tokyo Olympics. 
+My goal for this project was to be able to discern any connection between a country's happiness score and the overall medals they won at the 2021 Tokyo Olympics. The Olympics in Tokyo dataset provided the summary of all medals won and final standings for each country that participated in the 2020 Tokyo Olympics. The World Happiness Report dataset provided every countries' ladder score, their region and additional happiness measures.
 ### Datasets used:
 [Olympics in Tokyo](https://www.kaggle.com/arjunprasadsarkhel/2021-olympics-in-tokyo)  
 [World Happiness Report](https://www.kaggle.com/ajaypalsinghlo/world-happiness-report-2021)
@@ -22,8 +22,8 @@ My goal for my first project was to be able to discern any connection between a 
 Tableau Visual Dashboard:<br>
 [Tokyo Olympics and World Happiness](https://public.tableau.com/app/profile/clement.tsai/viz/FirstProject-2020TokyoOlympicsandWorldHappiness/Dashboard1)<br>
 
-## <a name="Udemy"></a> Project 2 - Project 2 - Udemy Course Data Exploration
-My goal for my second project was to explore the data within the Udemy Course dataset.
+## <a name="Udemy"></a> Project 2 - Udemy Course Data Exploration
+The goal for the Udemy course dataset was to throughougly explore the data, and determine which courses and subjects received the most interactions, engagements and subscriptions. The Udemy course dataset provided approximately 4000 unique courses from 2011 to 2017 with their corresponding data, such as the course length and number of subscription. The dataset was also categorized by 4 different subjects: Business Finance, Graphic Design, Musical Instruments and Web Development.
 ### Datasets used:
 [Udemy Course](https://www.kaggle.com/andrewmvd/udemy-courses)
 ### Process
