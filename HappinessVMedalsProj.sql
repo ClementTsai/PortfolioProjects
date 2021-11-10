@@ -30,6 +30,14 @@ ON h.country_name=m.country_name
 GROUP BY h.rg_id
 ORDER BY medaltally DESC;
 
+-- Average medals won per region compared to average life expectancy and ladder score
+SELECT h.rg_id, AVG(m.total) AS medaltally, AVG(h.ladder_score) AS AVGLadderScore, AVG(h.healthy_life) AS AVGLifeExpectancy
+FROM Happiness h 
+JOIN Medals m
+ON h.country_name=m.country_name
+GROUP BY h.rg_id
+ORDER BY medaltally DESC;
+
 -- Percentge of countries that won at least one(1) gold
 -- First CTE
 WITH TotalCountryCount (CountCountry)
