@@ -19,7 +19,9 @@ My goal for this project was to be able to discern any connection between a coun
 * Once data had been cleaned in Excel, imported it over to MySQL and 9conducted several queries which can be found [here](https://github.com/ClementTsai/PortfolioProjects/blob/main/HappinessVMedalsProj.sql)
 * Datasets were then imported to Tableau Public where several visualizations were made to better understand the relation between a country's happiness score and the medals they won at the 2021 Tokyo Olympics
 ### Analysis
-Of the 83 participating countries, excluding dependent territories and countries with missing data in the World Happiness dataset, 71% won at least one gold medal at the 2020 Tokyo Olympics. 46 of the participating countries that won at least one gold medal had a happiness score greater or equal to 5 whereas only 13 countries with a happiness score less than 5 won at least one gold medal at the 2020 Tokyo Olympics.
+Of the 83 participating countries, excluding dependent territories and countries with missing data in the World Happiness dataset, 71% won at least one gold medal at the 2020 Tokyo Olympics. 46 of the participating countries that won at least one gold medal had a happiness score greater or equal to 5 whereas only 13 countries with a happiness score less than 5 won at least one gold medal at the 2020 Tokyo Olympics. Additionally, there is an average 9.4 medal difference between countries with a happiness score above 5 and below 5. And, with every ladder point increase, there appears to be an approximate 5.2 additional medals won. Observing the data by their regions, Western Europe, North America and ANZ, and East Asia performed the best at the 2020 Tokyo Olympics respectively.
+
+Yet, while countries with a higher ladder score and score factors win more medals, increasing ladder points on the happiness scale does not cause more medals to be won at the olympics. While the correlation between higher medals and a happier country is prevalent, the trendline suggests that there is no relationship between the two variables.
 
 
 Tableau Visual Dashboard:<br>
