@@ -21,6 +21,32 @@ ON h.country_name=m.country_name
 WHERE ladder_score >= 5 
 AND gold >= 1;
 
+-- On average, how do countries with a ladder score greater than five perform compared to countries with a ladder score less than five
+-- First CTE
+WITH AVGCountryAbove5 (AvgMedalsUp)
+AS
+(
+SELECT AVG(m.total) AS AvgMedalsUp
+FROM medals m 
+JOIN happiness h 
+ON m.country_name=h.country_name
+WHERE h.ladder_score >= 5
+),
+-- Second CTE
+AVGCountryBelow5 (AvgMedalsDown)
+AS
+(
+SELECT AVG(m.total) AS AvgMedalsDown
+FROM medals m 
+JOIN happiness h 
+ON m.country_name=h.country_name
+WHERE h.ladder_score <= 5
+)
+-- Using Both
+SELECT *, (AvgMedalsUp-AvgMedalsDown) AS DiffMedal
+FROM AVGCountryAbove5
+CROSS JOIN AVGCountryBelow5;
+
 -- Breaking Things Down by Regions
 -- Show regions with highest medal tally
 SELECT h.rg_id, SUM(m.total) AS medaltally
