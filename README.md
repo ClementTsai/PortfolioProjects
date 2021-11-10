@@ -16,10 +16,10 @@ My goal for this project was to be able to discern any connection between a coun
 * Used VLOOKUP and Conditioning Formatting in Excel to match country names between World Happiness Report and listed 2020 Tokyo Olympic Teams/Countries<br>
 * Manually corrected name differences between the two reports (ie. Great Britain and United Kingdom). Teams that were not represented in the World Happiness Report were excluded from the dataset.<br>
 * Results were then filtered by colour to present final matches to better identify any potential missing points of interest.<br>
-* Once data had been cleaned in Excel, imported it over to MySQL and conducted several queries which can be found [here](https://github.com/ClementTsai/PortfolioProjects/blob/main/HappinessVMedalsProj.sql)
+* Once data had been cleaned in Excel, imported it over to MySQL and 9conducted several queries which can be found [here](https://github.com/ClementTsai/PortfolioProjects/blob/main/HappinessVMedalsProj.sql)
 * Datasets were then imported to Tableau Public where several visualizations were made to better understand the relation between a country's happiness score and the medals they won at the 2021 Tokyo Olympics
 ### Analysis
-Of the 83 participating countries, excluding dependent territories and countries with missing data in the World Happiness dataset, 43 countries with a happiness score greater or equal to 5 won a gold medal whereas only 13 countries with a happiness score less than 5 won a gold medal at the 2020 Tokyo Olympics.
+Of the 83 participating countries, excluding dependent territories and countries with missing data in the World Happiness dataset, 71% won at least one gold medal at the 2020 Tokyo Olympics. 46 of the participating countries that won at least one gold medal had a happiness score greater or equal to 5 whereas only 13 countries with a happiness score less than 5 won at least one gold medal at the 2020 Tokyo Olympics.
 
 
 Tableau Visual Dashboard:<br>
