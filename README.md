@@ -35,6 +35,7 @@ The goal for the Udemy course dataset was to throughougly explore the data, and 
 * Dataset was imported to MySQL where all duplicate courses were expunged
 * Once all duplicates were deleted, I [explored](https://github.com/ClementTsai/PortfolioProjects/blob/main/udemy.sql) the dataset in MySQL
 * Dataset was then imported to Tableau Public where I created several visualizations such as the growth of Udemy from 2011-2017
+### Analysis
 
 Tableau Visual Dashboard:<br>
 [Udemy Course Data Exploration](https://public.tableau.com/app/profile/clement.tsai/viz/Project2-UdemyCoursesDataExploration/Dashboard1)
