@@ -45,9 +45,10 @@ Around 8.4% of the courses provided by Udemy were free of charge. The most popul
 #### Tableau Visual Dashboard:<br>
 [Udemy Course Data Exploration](https://public.tableau.com/app/profile/clement.tsai/viz/Project2-UdemyCoursesDataExploration/Dashboard1)
 ## <a name="NYC"></a> Project 3 - New York City Property Data Cleaning
-The goal for the New York City Property Dataset was to througougly clean it by removing any duplicate data, converting time format, and seperating addresses into address and neighbourhood. The New York City Property Dataset was comprised of every building or building unit sold in a twelve month period from September 2016 to September 2017. The dataset was initially altered in an excel sheet by merging the address and neighbourhood for further SQL practice. 
+The goal for the New York City Property Dataset was to througougly clean in preparation for future data exploration. The New York City Property Dataset was comprised of every building or building unit sold in a twelve month period from September 2016 to September 2017. The dataset was initially altered in an excel sheet by merging the address and neighbourhood for further SQL practice. 
 ### Datasets used:
 [New York City Property Sales](https://www.kaggle.com/new-york-city/nyc-property-sales)
 ### Process
 * Dataset was first imported to Excel where the ID numbers were changed to be distinct
 * Dataset was then imported to MySQL to be [cleaned](https://github.com/ClementTsai/PortfolioProjects/blob/main/NYCPropertyClean.sql)
+* The cleaning process included removing any duplicate data, converting time format, translating IDs into their respective locations, and seperating addresses into address and neighbourhood.
