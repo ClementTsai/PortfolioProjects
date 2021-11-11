@@ -1,6 +1,7 @@
 /* 
 
 Cleaning Data in SQL queries
+Skills used: Truncating, Partitions, Updating, Inserting
 
 */
 
