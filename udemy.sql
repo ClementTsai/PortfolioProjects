@@ -37,6 +37,11 @@ FROM udemycourses
 GROUP BY subject
 ORDER BY SUBCount DESC;
 
+/* How much profit did each subject make collectively? */
+SELECT subject, SUM(price*num_subscribers) AS profit
+FROM udemycourses
+GROUP BY subject
+ORDER BY profit DESC;
 
 /* What courses have made the most money */
 SELECT course_title, MAX(price*num_subscribers) AS profit
