@@ -50,7 +50,7 @@ GROUP BY course_title
 ORDER BY profit DESC;
 
 /* How many courses are SQL-related? */
-SELECT COUNT(course_title) AS SQLCourses, AVG(price) AS AVGSQLPrice
+SELECT COUNT(course_title) AS SQLCourses, AVG(price) AS AVGSQLPrice, AVG(content_duration) as AVGDuration
 FROM udemycourses
 WHERE course_title LIKE "%SQL%"
 ORDER BY price desc;
