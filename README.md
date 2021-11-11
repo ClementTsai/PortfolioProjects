@@ -24,7 +24,7 @@ Of the 83 participating countries, excluding dependent territories and countries
 Yet, while countries with a higher ladder score and score factors win more medals, increasing ladder points on the happiness scale does not cause more medals to be won at the olympics. While the correlation between higher medals and a happier country is prevalent, the trendline suggests that there is no relationship between the two variables.
 
 
-Tableau Visual Dashboard:<br>
+#### Tableau Visual Dashboard:<br>
 [Tokyo Olympics and World Happiness](https://public.tableau.com/app/profile/clement.tsai/viz/FirstProject-2020TokyoOlympicsandWorldHappiness/Dashboard1)<br>
 
 ## <a name="Udemy"></a> Project 2 - Udemy Course Data Exploration
@@ -42,7 +42,7 @@ Around 8.4% of the courses provided by Udemy were free of charge. The most popul
 ### Additional Notes
 * There is a total of 29 SQL courses provided by Udemy, averaging a cost of $80 for 12 hours of content each.
 
-Tableau Visual Dashboard:<br>
+#### Tableau Visual Dashboard:<br>
 [Udemy Course Data Exploration](https://public.tableau.com/app/profile/clement.tsai/viz/Project2-UdemyCoursesDataExploration/Dashboard1)
 ## <a name="NYC"></a> Project 3 - New York City Property Data Cleaning
 The goal for the New York City Property Dataset was to througougly clean it by removing any duplicate data, converting time format, and seperating addresses into address and neighbourhood. The New York City Property Dataset was comprised of every building or building unit sold in a twelve month period from September 2016 to September 2017. The dataset was initially altered in an excel sheet by merging the address and neighbourhood for further SQL practice. 
